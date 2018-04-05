@@ -787,7 +787,7 @@ input::-ms-input-placeholder {
 .about .main_about_content{}
 .about .main_about_content .single_about{
     transition: all 0.6s;
-    margin-bottom: 65px;
+    margin-bottom: 0px;
     overflow: hidden;
 }
 
@@ -831,7 +831,7 @@ input::-ms-input-placeholder {
     margin-left:20px;
 }
 .about .single_ab_mision li{
-    margin-bottom:10px;
+    margin-bottom:0px;
 }
 
 /*about_skill_area*/ 
@@ -849,7 +849,7 @@ input::-ms-input-placeholder {
     display: inline-block;
     float: left;
     margin-right: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .about_skill_area .about_tabe .about_tabe_menu li.active a:hover, .about_tabe_menu li.active a:focus {
@@ -872,15 +872,16 @@ input::-ms-input-placeholder {
 }
 
 .about_skill{
-    margin-top:-38px;
+    margin-top:-158px;
+	margin-bottom:0px;
 }
 
 .skillbar {
     background: transparent;
     display: block;
     height: 7px;
-    margin-bottom: 64px;
-    top: 65px;
+    margin-bottom: 0px;
+    top: 10px;
     position: relative;
     transition-delay: 0s;
     transition-duration: .4s;
@@ -888,6 +889,7 @@ input::-ms-input-placeholder {
     transition-timing-function: linear;
     width: 100%;
     border:1px solid #dddddd;
+	background-color: #ff7200;
 }
 .skillbar-title {
     color: #323232;
@@ -907,7 +909,7 @@ input::-ms-input-placeholder {
 }
 
 .skillbar-bar.blue {
-    background-color: #ff7200;
+    
     height: 5px;
     width: 0;
 }
@@ -1310,7 +1312,7 @@ button.btn-md:hover {
 
 /* Carousel */
 .testimonial{
-    background: url(../images/testbg.jpg) no-repeat center center;
+    background: url(../images/wall.jpg) no-repeat center center;
     background-size: cover;
 }
 .main_testimonial {
@@ -1363,6 +1365,7 @@ button.btn-md:hover {
 .contact{
     background: url(../images/contactbg.png) no-repeat center center;
     background-size: cover;
+	margin-top:-140px;
 }
 
 .contact .single_contact_info{
